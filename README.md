@@ -7,10 +7,12 @@ Given the root of a binary tree, return true if the given tree is uni-valued, or
 
 
 ![image](https://user-images.githubusercontent.com/48378196/133423678-1a948b89-7e30-4ad1-a99d-3906d6336f84.png)
+
 Input: root = [1,1,1,1,1,null,1]
 Output: true
 
 ![image](https://user-images.githubusercontent.com/48378196/133423717-ec97e360-1491-4a83-bd93-d86453e17a17.png)
+
 Input: root = [2,2,2,5,2]
 Output: false
 
