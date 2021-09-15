@@ -18,7 +18,7 @@ Output: false
 
 
 ## Method
-The instance variable 'start' in the 'isUnivalTree' class is used to capture the original root node value. This value is subsequently compared against all node values through preorder traversal. If any node encountered during this traversal differs from 'start', line 16 sets the instance variable 'status' of the 'isUnivalTree' class to False.
+The instance variable 'start' in the 'isUnivalTree' class is used to capture the original root node value. This value is subsequently compared with the other node values during the traversal of the tree. If any node encountered during this traversal differs from 'start', line 16 sets the instance variable 'status' of the 'isUnivalTree' class to False.
 
 
 ## Results 
