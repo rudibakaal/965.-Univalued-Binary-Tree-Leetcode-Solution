@@ -17,6 +17,10 @@ Input: root = [2,2,2,5,2]
 Output: false
 
 
+## Method
+The instance variable 'start' in the 'isUnivalTree' class is used to capture the original root node value. This value is subsequently compared against all node values through preorder traversal. If any node encountered during this traversal differs from 'start', line 16 sets the instance variable 'status' of the 'isUnivalTree' class to False.
+
+
 ## Results 
 This program outperforms 88.81% of Python online submissions for Univalued Binary Tree.
 
